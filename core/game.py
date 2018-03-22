@@ -1,12 +1,34 @@
+from builtins import object
+
 from .factory import Factory
+from interface import simple_text as ST
 
 
-def run(size):
-    agents = Factory(size).get_agents()
+class Game(object):
+    debug: bool
+    agents: list
 
-    ans = ''
+    def __init__(self, size, debug=False):
 
-    for agent in agents:
-        ans += str(agent)
+        self.agents = Factory(size).get_agents()
+        self.debug = debug
 
-    print(ans)
+    def play(self):
+
+        number = ST.get_input(self.agents.__len__())
+
+        if self.agents[number].check():
+            # retorna True, caso ache a moeda
+            print("You WIN!!!")
+            ST.show_ans(self.agents)
+            return True
+
+        print("Try again!")
+
+        if self.debug:
+            ST.show_ans(self.agents)
+
+        for agent in self.agents:
+            if agent.core():
+                break
+        return False

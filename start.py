@@ -1,3 +1,7 @@
-import core.game as game
+from core.game import Game
 
-game.run(15)
+game = Game(100, True)
+key = False
+
+while not key:
+    key = game.play()

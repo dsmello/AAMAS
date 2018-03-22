@@ -21,6 +21,7 @@ class Agent(object):
         if self.coin:
             agent.accept_coin()
             self.coin = False
+            return True
 
     def accept_coin(self):
 
@@ -31,7 +32,7 @@ class Agent(object):
 
         security = random.SystemRandom()
         agent = security.choice(self.links)
-        self.transfer_coin(agent)
+        return self.transfer_coin(agent)
 
     def check(self):
 
