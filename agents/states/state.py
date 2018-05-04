@@ -1,4 +1,5 @@
 from interface.model import model
+from agents.agent import Agent
 
 
 class State(object):
@@ -23,5 +24,10 @@ class State(object):
         # This method return (letter, meaning), info about what letter and your about meaning this state.
         # letter and meaning is string.
         # And if the letter is not be unique, the will raise a Error.
+
+        raise NotImplementedError("subclasses must override legend method!\n")
+
+    def do(self, agent: Agent):
+        # this method, receive an agent, interpreter his values and made all necessaries actions.
 
         raise NotImplementedError("subclasses must override legend method!\n")
