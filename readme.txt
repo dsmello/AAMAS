@@ -16,6 +16,8 @@ This is a project for a subject, about autonomous agents and multiple autonomous
                 |
                 #---- /interface (is where the code is responsible, about how to interpreted the info.)
                 |
+                #---- /venv (is a virtual environment, where had all package used in this code. )
+                |
                 #---- run.py (Start the program.)
 
 ### Requirements ###
