@@ -12,11 +12,15 @@ This is a project for a subject, about autonomous agents and multiple autonomous
 
       AAMAS ----#---- /agents (is where all the code about agents.)
                 |
-                #---- /environment (Is the space, where the agent's will interact whit other's. And is responsible to organize the agents.)
+                #---- /environment (Is the space, where the agent's will interact whit other's.
+                |                   And is responsible to organize the agents.)
                 |
                 #---- /interface (is where the code is responsible, about how to interpreted the info.)
                 |
                 #---- /venv (is a virtual environment, where had all package used in this code. )
+                |
+                #---- /reference (is some samples of code, to help-me who to use a package. 
+                |                 Ex.: basic_use_of_terminal_packpage.py)
                 |
                 #---- run.py (Start the program.)
 
