@@ -1,4 +1,4 @@
-from agents.states.state import State
+from .states.state import State
 
 """
 Is basic reference of agent.
