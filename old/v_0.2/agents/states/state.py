@@ -1,5 +1,5 @@
 from interface.model import model
-from agents.agent import Agent
+from agents.abstracts import Agent
 
 
 class State(object):

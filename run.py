@@ -1,3 +1,6 @@
-from agents.agent_defender import Defender
+from agents.agent_of_defense import AgentOfDefense
+from agents.states_of_agent_of_defense import StateOfKeepTheKey
 
-d = Defender()
+agent = AgentOfDefense()
+
+StateOfKeepTheKey()

@@ -43,12 +43,14 @@ Packages :
 
 ### Test's ###
 
-### Version comment's ###
+### Version - comment's about ###
 
-    version 0.1 - Prototyping of idea.
+    version 0.1 -   Prototyping of idea.
 
-    version 0.2 - Sample 1
+    version 0.2 -   Abstract class created, but i had problems whit file organize.
+                    Problem report on stackoverflow, (https://pt.stackoverflow.com/questions/296407).
 
+    version 0.3 -   new Way.
 
 
 

@@ -1,5 +1,5 @@
-from agents.agent import Agent
-from agents.states.state import State
+from agents.abstracts import Agent
+from states.state import State
 
 
 class Defender(Agent):
