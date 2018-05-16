@@ -1,4 +1,3 @@
-from interface.model import model
 from agents.abstracts import Agent
 
 
